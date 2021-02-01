@@ -3,7 +3,6 @@ import React from "react";
 const ColorfulMessage = (props) => {
   // 分割代入
   const { color, children } = props;
-  console.log(props);
   const contentStyle = {
     // ↓略さずかくと→　color: color,
     color,
